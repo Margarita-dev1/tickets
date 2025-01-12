@@ -1,8 +1,11 @@
 import React from "react";
+import {MainBunner} from "./MainBunner";
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <main className="main">
+            <MainBunner/>
+        </main>
     )
 }
 

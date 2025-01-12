@@ -1,0 +1,14 @@
+@import "./mixins.scss";
+.banner{
+  min-height: 540px;
+  position: relative;
+  background-image: url(../images/main-bg.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  &-video{
+    position: relative;
+    @include center;
+    top:35%;
+  }
+}
